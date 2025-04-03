@@ -1,0 +1,24 @@
+% ARFF file for Gadget Factory Decision Tree Analysis
+
+@relation gadget_factory_decision
+
+@attribute Expansion {Yes, No}
+@attribute Economy {Good, Bad}
+@attribute Revenue numeric
+@attribute Cost numeric
+@attribute Net_Profit numeric
+@attribute Decision {Expand, No_Expand}
+
+@data
+Yes, Good, 7.0, 2.0, 5.0, Expand
+Yes, Bad, 3.0, 2.0, 1.0, Expand
+No, Good, 4.0, 0.0, 4.0, No_Expand
+No, Bad, 1.5, 0.0, 1.5, No_Expand
+Yes, Good, 6.8, 2.0, 4.8, Expand
+Yes, Bad, 2.9, 2.0, 0.9, Expand
+No, Good, 4.2, 0.0, 4.2, No_Expand
+No, Bad, 1.6, 0.0, 1.6, No_Expand
+Yes, Good, 7.2, 2.0, 5.2, Expand
+Yes, Bad, 3.1, 2.0, 1.1, Expand
+No, Good, 3.9, 0.0, 3.9, No_Expand
+No, Bad, 1.4, 0.0, 1.4, No_Expand

@@ -1,0 +1,15 @@
+@relation employee_data
+
+@attribute EmployeeID numeric
+@attribute Gender {0,1}
+@attribute Age numeric
+@attribute Salary numeric
+@attribute Credit numeric
+
+@data
+111, 0, 28, 150000, 39
+222, 0, 25, 150000, 27
+333, 1, 26, 150000, 27
+444, 1, 25, 160000, 42
+555, 1, 30, 160000, 40
+666, 1, 64, 170000, 64

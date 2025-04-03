@@ -1,0 +1,25 @@
+@relation email_engagement
+
+@attribute percentage_opened numeric
+@attribute clicks_per_email numeric
+@attribute time_spent numeric
+
+@data
+90, 5, 120
+85, 4, 110
+75, 3, 95
+60, 2, 80
+50, 1, 60
+20, 0, 30
+95, 6, 150
+88, 5, 130
+65, 2, 85
+40, 1, 50
+35, 1, 45
+10, 0, 20
+99, 7, 160
+92, 6, 140
+70, 3, 90
+55, 2, 75
+30, 1, 40
+15, 0, 25

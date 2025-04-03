@@ -1,0 +1,15 @@
+@relation transactions
+
+@attribute item1 {M, D, A, U, C}
+@attribute item2 {O, O, M, U, O}
+@attribute item3 {N, N, K, C, O}
+@attribute item4 {K, K, E, K, K}
+@attribute item5 {E, E, ?, Y, I}
+@attribute item6 {Y, Y, ?, ?, E}
+
+@data
+M, O, N, K, E, Y
+D, O, N, K, E, Y
+M, A, K, E, ?, ?
+M, U, C, K, Y, ?
+C, O, O, K, I, E

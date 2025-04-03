@@ -1,0 +1,26 @@
+@relation bank_loan
+
+@attribute Marital_Status {married, single, divorced}
+@attribute Gender {male, female}
+@attribute Age {18-30, 30-50, 50-65, 65+}
+@attribute Income {10K-25K, 25K-50K, 50K-65K, 65K-100K, 100K+}
+@attribute Credit_Status {Good, Bad}
+
+@data
+married, male, 30-50, 50K-65K, Good
+single, female, 18-30, 10K-25K, Bad
+divorced, male, 50-65, 65K-100K, Good
+married, female, 30-50, 25K-50K, Bad
+single, male, 18-30, 10K-25K, Bad
+divorced, female, 50-65, 50K-65K, Good
+married, male, 65+, 100K+, Good
+single, female, 30-50, 25K-50K, Bad
+married, male, 50-65, 65K-100K, Good
+divorced, female, 18-30, 10K-25K, Bad
+married, female, 30-50, 50K-65K, Good
+single, male, 50-65, 65K-100K, Good
+divorced, female, 65+, 100K+, Good
+married, male, 18-30, 25K-50K, Bad
+single, female, 30-50, 10K-25K, Bad
+married, male, 50-65, 100K+, Good
+divorced, female, 30-50, 50K-65K, Good
